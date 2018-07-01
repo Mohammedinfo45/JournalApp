@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignIn">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:id="@+id/layout_sign_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image_sign"
+            android:orientation="vertical"
+            android:padding="8dp">
+            <TextView
+                android:id="@string/text_view_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/name_p"
+                android:layout_marginStart="16dp" tools:targetApi="jelly_bean" />
+
+            <EditText
+                android:id="@+id/editText_name"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:hint="@string/name_person"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@string/text_view_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="@string/email"
+                android:layout_marginStart="16dp" tools:targetApi="jelly_bean" />
+
+            <EditText
+                android:id="@+id/editText_email"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:hint="@string/nom_prefix_of_email_google"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@string/text_view_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="@string/password"
+                android:layout_marginStart="16dp"
+                tools:targetApi="jelly_bean" />
+
+            <EditText
+                android:id="@+id/editText_password"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="4dp"
+                android:ems="10"
+                android:hint="@string/password"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/btn_sign_in"
+                android:layout_width="250dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="@string/sign_in_btn"
+                android:background="@drawable/my_button"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/layout_sign_1"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/sign_in_button"
+                android:layout_width="250dp"
+                android:layout_height="36dp"
+                android:layout_below="@id/here_checked_text_view"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:visibility="visible"
+               />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

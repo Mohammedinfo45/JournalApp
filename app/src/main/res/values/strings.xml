@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Journal App</string>
+    <string name="splash_image">splash image</string>
+    <string name="todo">todo app</string>
+    <string name="text_view_email">email text view</string>
+    <string name="text_view_password">password edit text</string>
+    <string name="email">Google Email Address</string>
+    <string name="password">Password</string>
+    <string name="todo01">TODO</string>
+    <string name="login_btn">Login</string>
+    <string name="image_app_journal">image app sigin</string>
+    <string name="nom_prefix_of_email_google">mail@google.com</string>
+    <string name="no_account_yet">No Account Yet? Create One</string>
+    <string name="here_text_view">here.</string>
+    <string name="password_hint">Password</string>
+    <string name="password_name">Password</string>
+    <string name="here_text_View">Here.</string>
+    <string name="here">here.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_view_name">full name</string>
+    <string name="name_person">Enter UserName</string>
+    <string name="name_p">User Name</string>
+    <string name="sign_in_btn">Register</string>
+    <string name="lbl_new_diary_title">New Diary</string>
+    <string name="hint_enter_note">Hint new Diary</string>
+    <string name="msg_no_notes">No Note Found</string>
+    <string name="action_settings">Settings</string>
+    <string name="activity_title_home">Diary</string>
+    <string name="lbl_edit_diary_title">Edit Diary</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="password2">password</string>
+    <string name="enter">Enter</string>
+    <string name="login_logout">LogIn</string>
+    <string name="add_logging">login</string>
+
+</resources>

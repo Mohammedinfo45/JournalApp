@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:paddingLeft="@dimen/diemen_dix"
+android:paddingRight="@dimen/diemen_dix"
+android:paddingTop="@dimen/diemen_dix"
+android:background="@color/white">
+
+<TextView android:id="@+id/dialog_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/diemen_dix"
+    android:fontFamily="sans-serif-medium"
+    android:lineSpacingExtra="8sp"
+    android:text="@string/lbl_new_diary_title"
+    android:textColor="@color/colorAccent"
+    android:textSize="@dimen/dimen_text_vingt"
+    android:textStyle="normal" />
+
+<EditText
+    android:id="@+id/diary_editor"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:gravity="top"
+    android:hint="@string/hint_enter_note"
+    android:inputType="textCapSentences|textMultiLine"
+    android:lines="4"
+    android:textColorHint="@color/msg_no_notes"
+    android:textSize="@dimen/dimen_text_vingt" />
+
+</LinearLayout>
